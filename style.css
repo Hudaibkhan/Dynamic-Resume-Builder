@@ -1,0 +1,104 @@
+/* Styling form and resume sections */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgba(232, 218, 240, 0.546);
+}
+
+form {
+    margin: auto;
+    background-color: rgb(208, 183, 204);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(167, 42, 136, 0.934);
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center; 
+    color: rgb(145, 82, 115);
+    
+}
+
+fieldset {
+    border: 2px solid hsl(337, 79%, 34%);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(222, 202, 217);
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(34, 29, 29);
+    box-shadow: 0 4px 8px rgba(246, 0, 168, 0.3);
+    background-color: rgb(180, 154, 176);
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+    border-radius: 5px;
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 2px solid rgba(175, 70, 159, 0.752);
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: rgba(249, 249, 249, 0.444);
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: rgb(210, 108, 196);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(222, 8, 168, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button :hover {
+    color: rgb(157, 17, 143);
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(208, 183, 204);
+    box-shadow: 0 4px 8px rgba(63, 7, 107, 0.5);
+}
+
+#resume-display h2 {
+    color: black;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(63, 7, 107, 0.5);
+    border: 5px solid rgb(180, 35, 168);
+    border-radius: 12px;
+    background-color: rgb(229, 224, 229);
+}
+
+#resume-display h3{
+    color: rgb(176, 53, 137);
+}
+
+#resume-display p>b{
+    color: rgb(158, 137, 137);
+    border: 2px solid ;
+    border-radius: 5px;
+}
